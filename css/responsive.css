@@ -1,0 +1,398 @@
+/* 
+                                            Small devices.
+    ===========================================================================================
+*/
+@media only screen and (max-width: 576px) {
+
+    /* 
+                                            Header.
+        ===================================================================================
+    */
+
+    header section>div h2 a {
+        font-size: 1.8rem;
+    }
+
+    /* Header nav. */
+    header section>div div {
+        display: block;
+    }
+
+    header section nav {
+        display: none;
+    }
+
+    /* Get body section. */
+    #get_body_section>div {
+        flex-direction: column;
+    }
+
+    /* Get body section article. */
+    #get_body_section div article {
+        width: 100%;
+    }
+
+    #get_body_section div article h2 {
+        font-size: 2.5rem;
+    }
+
+    #get_body_section div article h2 span {
+        font-size: 5rem;
+    }
+
+    #get_body_section div article button {
+        padding: .5rem 1.5rem;
+        margin-right: .1rem;
+        margin-bottom: 1rem;
+    }
+
+
+    /* Get body section image. */
+    .get_body_section_img div:nth-child(2) {
+        top: 12%;
+        right: -8%;
+    }
+
+    .get_body_section_img div:nth-child(2) span {
+        font-size: 1.5rem;
+    }
+
+    .get_body_section_img div:nth-child(3) {
+        bottom: 15%;
+        left: -8%;
+    }
+
+    .get_body_section_img div:nth-child(3) div:nth-child(2) span {
+        font-size: 1rem;
+    }
+
+
+
+    /* 
+                                            Main.
+        ===================================================================================
+    */
+
+    /* Change your habits section. */
+
+    #change_your_habits_section .fitness_container article {
+        width: 100%;
+    }
+
+    #change_your_habits_section .fitness_container article h2 {
+        font-size: 1.8rem;
+    }
+
+    #change_your_habits_section div.fitness_container>div {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4rem;
+    }
+
+
+    /* Run an extra mile section. */
+    #run_an_extra_section .fitness_container {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    #run_an_extra_section .fitness_container article {
+        width: 100%;
+        margin: 1rem;
+    }
+
+    #run_an_extra_section .fitness_container article h2 {
+        font-size: 2.1rem;
+        line-height: 2.5rem;
+    }
+
+    #run_an_extra_section .fitness_container article a {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 1rem 2.9rem;
+    }
+
+    #run_an_extra_section .fitness_container div {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 50% 20%;
+    }
+
+
+    /* Training and exercise section. */
+    #training_and_exercise_section .fitness_container article {
+        width: 100%;
+    }
+
+    #training_and_exercise_section .fitness_container article h2 {
+        font-size: 2.2rem;
+        line-height: 2.5rem;
+    }
+
+    .training_grid .exercise_3,
+    .training_grid .exercise_6 {
+        display: none;
+    }
+
+    .training_grid div.training_grid_1 {
+        grid-template-columns: 50% 50%;
+    }
+
+    .training_grid div.training_grid_2 {
+        grid-template-columns: 45% 55%;
+    }
+
+    .exercise_4 span,
+    .exercise_5 span {
+        display: none;
+    }
+
+
+    /* BMI calculator section. */
+    #bmi_calculator_section>article {
+        width: 80%;
+    }
+
+    #bmi_calculator_section>article h2 {
+        font-size: 2.2rem;
+        line-height: 2.8rem;
+    }
+
+    .bmi_calculator_section_calculator .fitness_container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .bmi_calculator_section_table {
+        width: 100%;
+    }
+
+    .bmi_calculator_input {
+        width: 100%;
+    }
+
+
+    /* Meet our team section. */
+
+    #meet_our_team_section article {
+        width: 80%;
+    }
+
+    #meet_our_team_section article h3 {
+        font-size: 2.5rem;
+    }
+
+    #meet_our_team_section div.fitness_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .trainer_1 {
+        display: none;
+    }
+
+    .trainer_4 {
+        display: none;
+    }
+
+    #our_best_trainers section div div {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    /* Our best trainer section. */
+
+    #our_best_trainers div.fitness_container>article {
+        width: 100%;
+    }
+
+    #our_best_trainers div.fitness_container>article h4 {
+        font-size: 2.5rem;
+    }
+
+    #our_best_trainers section {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+
+    #our_best_trainers section>div {
+        padding: 1rem;
+    }
+
+    #our_best_trainers section div article {
+        margin-top: 2rem;
+    }
+
+    #our_best_trainers section div article button {
+        padding: 1rem;
+    }
+
+
+
+
+    /* 
+                                            Footer.
+        ===================================================================================
+    */
+
+    footer div.fitness_container>div>div:first-child {
+        width: 100%;
+    }
+
+    footer div.fitness_container>div>div h4 {
+        font-size: 2.8rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+                                            Medium devices.
+    ===========================================================================================
+*/
+@media only screen and (min-width: 575px) and (max-width: 768px) {
+
+    /* 
+                                            Header.
+        ===================================================================================
+    */
+
+    /* Header nav. */
+    header section nav ul {
+        gap: .2rem;
+    }
+
+    /* Get body section. */
+    #get_body_section {
+        margin-top: 5rem;
+    }
+
+    #get_body_section>div {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    /* Get body section article. */
+    #get_body_section div article {
+        width: 100%;
+    }
+
+
+
+    /* 
+                                            Main.
+        ===================================================================================
+    */
+
+    /* BMI calculator section. */
+    #bmi_calculator_section>article {
+        width: 80%;
+    }
+
+    .bmi_calculator_section_calculator .fitness_container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .bmi_calculator_section_table {
+        width: 100%;
+    }
+
+    .bmi_calculator_input {
+        width: 100%;
+    }
+
+
+    /* Change your habits section. */
+    #change_your_habits_section .fitness_container article {
+        width: 100%;
+        margin-bottom: 4.5rem;
+    }
+
+    #change_your_habits_section div.fitness_container>div {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+    }
+
+    /* Run an extra mile section. */
+    #run_an_extra_section .fitness_container div {
+        padding: 35% 25%;
+    }
+
+    #run_an_extra_section .fitness_container article h2 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    /* Training and exercise section. */
+    #training_and_exercise_section .fitness_container article {
+        width: 100%;
+    }
+
+    /* Meet our team section. */
+    #meet_our_team_section article {
+        width: 80%;
+    }
+
+    /* Our best trainer section. */
+    #our_best_trainers section {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 8rem;
+    }
+
+
+
+    /* 
+                                            Footer.
+        ===================================================================================
+    */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    /* 
+                                            Header.
+        ===================================================================================
+    */
+
+
+
+    /* 
+                                            Main.
+        ===================================================================================
+    */
+
+
+
+    /* 
+                                            Footer.
+        ===================================================================================
+    */
+}
