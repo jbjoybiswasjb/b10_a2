@@ -214,6 +214,7 @@ header section nav ul li a.home {
     padding: 1rem;
     border-radius: 1rem;
     backdrop-filter: blur(1rem);
+    border: 1px solid var(--nav_border);
 }
 
 .get_body_section_img div:nth-child(2) {
