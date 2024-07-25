@@ -217,6 +217,7 @@
     #our_best_trainers section {
         grid-template-columns: repeat(1, 1fr);
         gap: 1rem;
+        padding: .2rem;
     }
 
     #our_best_trainers section>div {
