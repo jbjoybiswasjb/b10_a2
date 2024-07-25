@@ -244,6 +244,21 @@ header section nav ul li a.home {
     gap: 1rem;
 }
 
+.get_body_section_img div:nth-child(3) .flex_icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: var(--button_bg);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get_body_section_img div:nth-child(3) div:first-child a {
+    color: var(--text_white);
+    font-size: 1rem;
+}
+
 .get_body_section_img div:nth-child(3) div:nth-child(2) span {
     font-size: 2rem;
 }
