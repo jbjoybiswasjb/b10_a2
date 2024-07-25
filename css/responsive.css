@@ -279,6 +279,11 @@
         gap: .2rem;
     }
 
+    header section nav ul li a {
+        padding: .50rem .6rem;
+        border-radius: .5rem;
+    }
+
     /* Get body section. */
     #get_body_section {
         margin-top: 5rem;
