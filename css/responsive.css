@@ -26,6 +26,15 @@
         display: none;
     }
 
+
+
+    
+
+    /* 
+                                                Main.
+        ===================================================================================
+    */
+
     /* Get body section. */
     #get_body_section>div {
         flex-direction: column;
@@ -70,12 +79,10 @@
         font-size: 1rem;
     }
 
-
-
-    /* 
-                                            Main.
-        ===================================================================================
-    */
+    .get_body_section_img div:nth-child(3) .flex_icon {
+        height: 2rem;
+        width: 2rem;
+    }
 
     /* Change your habits section. */
 
