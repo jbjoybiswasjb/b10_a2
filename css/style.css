@@ -697,12 +697,13 @@ header section nav ul li a.home {
     gap: 1rem;
     padding: 1rem;
     border-radius: 1rem;
+    text-align: center;
 }
 
 #our_best_trainers section div {
     background-color: var(--meet_our_team_pic_bg);
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1.8rem;
 }
 
 #our_best_trainers section div div {

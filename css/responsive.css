@@ -354,7 +354,6 @@
     /* Our best trainer section. */
     #our_best_trainers section {
         grid-template-columns: repeat(1, 1fr);
-        gap: 8rem;
     }
 
 
