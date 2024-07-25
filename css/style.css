@@ -53,7 +53,7 @@ a {
 }
 
 .fitness_container {
-    max-width: 75%;
+    max-width: 80%;
     margin: 6.25rem auto;
 }
 
@@ -697,7 +697,6 @@ header section nav ul li a.home {
     gap: 1rem;
     padding: 1rem;
     border-radius: 1rem;
-    margin-top: 9rem;
 }
 
 #our_best_trainers section div {
