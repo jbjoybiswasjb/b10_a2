@@ -140,7 +140,7 @@ header section nav ul li a.home {
     =======================================================================================
 */
 #get_body_section {
-    background: linear-gradient(180deg, #111111 100%, #777777 0%);
+    background: linear-gradient(180deg, var(--bg_black), var(--nav_border), var(--bg_black));
 }
 
 #get_body_section>div {
